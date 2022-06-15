@@ -1,0 +1,36 @@
+@mixin content-width {
+    max-width: 85%;
+    width: 100%;
+    margin: 0 auto;    
+
+    @media screen and (min-width:1200px) {
+        max-width: 1000px
+    }
+}
+
+@mixin content-main {
+    max-width: 85%;
+    width: 100%;
+    margin: 43px auto 93px;
+
+    @media screen and (min-width:1200px) {
+        max-width: 1000px;
+        margin: 53px auto 93px;
+    }
+}
+
+@mixin content-mini{
+    max-width: 331px;
+    width: 100%;
+    margin: 0 auto 65px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    text-align: center;
+
+    @media screen and (min-width:768px){
+        max-width: 531px;
+    }
+}

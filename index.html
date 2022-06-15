@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Tourest - Explore the World</title>
+</head>
+<body>
+    <div class="floatingBtn" id="floatingBtn">
+        <a href="#headerMain" class="floatingBtn__cta">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </div>
+    <header class="header header__bg" id="headerMain">
+        <section class="header__main">
+            <div class="header__top" id="header">
+                <div class="header__top--left">
+                    <a href="#" class="header__top--brand">
+                        <h1 class="header__top--firstheading">tourest</h1>
+                    </a>
+                </div>
+                <div class="header__top--right">
+                    <button class="header__top--hamburger" id="hamburger">
+                        <div class="header__top--bar"></div>
+                        <div class="header__top--bar"></div>
+                        <div class="header__top--bar"></div>
+                    </button>
+                </div>
+                <nav class="header__top--nav" id="nav">
+                    <ul class="header__top--menu">
+                        <li class="header__top--list">
+                            <a href="#home" class="header__top--link">home</a>
+                        </li>
+                        <li class="header__top--list">
+                            <a href="#about" class="header__top--link">about us</a>
+                        </li>
+                        <li class="header__top--list">
+                            <a href="#tours" class="header__top--link">tours</a>
+                        </li>
+                        <li class="header__top--list">
+                            <a href="#destination" class="header__top--link">destinations</a>
+                        </li>
+                        <li class="header__top--list">
+                            <a href="#blog" class="header__top--link">blog</a>
+                        </li>
+                        <li class="header__top--list">
+                            <a href="#footer" class="header__top--link">contact us</a>
+                        </li>
+                    </ul>
+                    <div class="header__top--booking">
+                        <a href="#" class="header__top--btn">booking now</a>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <section class="home" id="home">
+        <div class="home__main home__container">
+            <article class="home__article">
+                <p class="home__article--title title">explore your travel</p>
+                <h2 class="home__article--secondheading secondheading">
+                    trusted travel <br> agency
+                </h2>
+                <p class="home__article--paragraph paragraph">
+                    I travel not to go anywhere, but to go. I travel for travel's sake the great affair is to move.
+                </p>
+                <div class="home__article--buttongroup">
+                    <a href="#" class="home__article--contact btn btn__blue">contact us</a>
+                    <a href="#" class="home__article--learn btn btn__gray">learn more</a>
+                </div>
+            </article>
+            <figure class="home__picture">
+                <img src="images/hero-banner.png" alt="" class="home__img img-responsive">
+                <div class="home__picture--shapes">
+                    <img src="images/shape-1.png" alt="Shape #1" class="home__picture--shape">
+                    <img src="images/shape-2.png" alt="Shape #2" class="home__picture--shape">
+                    <img src="images/shape-3.png" alt="Shape #3" class="home__picture--shape">
+                </div>
+            </figure>
+        </div>
+    </section>
+    <section class="destination" id="destination">
+        <div class="destination__main">
+            <div class="destination__header">
+                <p class="destination__header--title title">destinations</p>
+                <h2 class="destination__header--secondheading secondheading">choose your place</h2>
+            </div>
+            <div class="destination__body">
+                <div class="destination__item">
+                    <figure class="destination__item--picture">
+                        <img src="images/destination-1.jpg" alt="Destination Maldives" class="destination__item--img img-responsive">
+                        <div class="destination__item--location">
+                            <p class="destination__item--title minititle">Malé</p>
+                            <h3 class="destination__item--middleheading middleheading">Maldives</h3>
+                        </div>
+                    </figure>
+                </div>
+                <div class="destination__item">
+                    <figure class="destination__item--picture">
+                        <img src="images/destination-2.jpg" alt="Destination Thailand" class="destination__item--img img-responsive">
+                        <div class="destination__item--location">
+                            <p class="destination__item--title minititle">Bangkok</p>
+                            <h3 class="destination__item--middleheading middleheading">Thailand</h3>
+                        </div>
+                    </figure>
+                </div>
+                <div class="destination__item">
+                    <figure class="destination__item--picture">
+                        <img src="images/destination-3.jpg" alt="Destination Malaysia" class="destination__item--img img-responsive">
+                        <div class="destination__item--location">
+                            <p class="destination__item--title minititle">Kuala Lumpur</p>
+                            <h3 class="destination__item--middleheading middleheading">Malaysia</h3>
+                        </div>
+                    </figure>
+                </div>
+                <div class="destination__item">
+                    <figure class="destination__item--picture">
+                        <img src="images/destination-4.jpg" alt="Destination Nepal" class="destination__item--img img-responsive">
+                        <div class="destination__item--location">
+                            <p class="destination__item--title minititle">Kathmandu</p>
+                            <h3 class="destination__item--middleheading middleheading">Nepal</h3>
+                        </div>
+                    </figure>
+                </div>
+                <div class="destination__item">
+                    <figure class="destination__item--picture">
+                        <img src="images/destination-5.jpg" alt="Destination Indonesia" class="destination__item--img img-responsive">
+                        <div class="destination__item--location">
+                            <p class="destination__item--title minititle">Jakarta</p>
+                            <h3 class="destination__item--middleheading middleheading">Indonesia</h3>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tours" id="tours">
+        <div class="tours__main">
+            <div class="tours__header">
+                <p class="tours__header--title title">features tours</p>
+                <h2 class="tours__header--secondheading secondheading">most popular tours</h2>
+            </div>
+            <div class="tours__body">
+                <div class="tours__item">
+                    <figure class="tours__item--picture">
+                        <img src="images/popular-1.jpg" alt="Popular tour #1" class="tours__item--img img-responsive">
+                        <div class="tours__item--time">
+                            <i class="fa-regular fa-clock"></i>
+                            <p class="tours__item--days">12 days</p>
+                        </div>
+                    </figure>
+                    <div class="tours__item--body">
+                        <div class="tours__item--description">
+                            <span class="tours__item--description-price">from $50.00</span>
+                            <div class="tours__item--description-score">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <div class="tours__item--description-total">(2)</div>
+                            </div>
+                        </div>
+                        <a href="#" class="tours__item--cta">
+                            <h3 class="tours__item--middleheading">
+                                A good traveler has no fixed plans and is not intent on arriving.
+                            </h3>
+                        </a>
+                        <p class="tours__item--paragraph">
+                            Kuala Lumpur, Malaysia
+                        </p>
+                    </div>
+                </div>
+                <div class="tours__item">
+                    <figure class="tours__item--picture">
+                        <img src="images/popular-2.jpg" alt="Popular tour #2" class="tours__item--img img-responsive">
+                        <div class="tours__item--time">
+                            <i class="fa-regular fa-clock"></i>
+                            <p class="tours__item--days">12 days</p>
+                        </div>
+                    </figure>
+                    <div class="tours__item--body">
+                        <div class="tours__item--description">
+                            <span class="tours__item--description-price">from $50.00</span>
+                            <div class="tours__item--description-score">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <div class="tours__item--description-total">(2)</div>
+                            </div>
+                        </div>
+                        <a href="#" class="tours__item--cta">
+                            <h3 class="tours__item--middleheading">
+                                A good traveler has no fixed plans and is not intent on arriving.
+                            </h3>
+                        </a>
+                        <p class="tours__item--paragraph">
+                            Kuala Lumpur, Malaysia
+                        </p>
+                    </div>
+                </div>
+                <div class="tours__item">
+                    <figure class="tours__item--picture">
+                        <img src="images/popular-3.jpg" alt="Popular tour #3" class="tours__item--img img-responsive">
+                        <div class="tours__item--time">
+                            <i class="fa-regular fa-clock"></i>
+                            <p class="tours__item--days">12 days</p>
+                        </div>
+                    </figure>
+                <div class="tours__item--body">
+                    <div class="tours__item--description">
+                        <span class="tours__item--description-price">from $50.00</span>
+                        <div class="tours__item--description-score">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <div class="tours__item--description-total">(2)</div>
+                        </div>
+                    </div>
+                    <a href="#" class="tours__item--cta">
+                        <h3 class="tours__item--middleheading">
+                            A good traveler has no fixed plans and is not intent on arriving.
+                        </h3>
+                    </a>
+                    <p class="tours__item--paragraph">
+                        Kuala Lumpur, Malaysia
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about__main">
+            <article class="about__article">
+                <p class="about__article--title title">about us</p>
+                <h2 class="about__article--secondheading secondheading">explore all tour of the <br>world with us.</h2>
+                <p class="about__article--paragraph paragraph">
+                    Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
+                    which don't look even slightly believable.
+                </p>
+                <div class="about__article--features">
+                    <div class="about__article--item">
+                        <div class="about__article--ico">
+                            <i class="fa-solid fa-compass"></i>
+                        </div>
+                        <div class="about__article--info">
+                            <h3 class="about__article--middleheading">Tour guide</h3>
+                            <p class="about__article--paragraph paragraph">
+                                Lorem Ipsum available, but the majority have suffered alteration in some.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__article--item">
+                        <div class="about__article--ico">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="about__article--info">
+                            <h3 class="about__article--middleheading">Friendly price</h3>
+                            <p class="about__article--paragraph paragraph">
+                                Lorem Ipsum available, but the majority have suffered alteration in some.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__article--item">
+                        <div class="about__article--ico">
+                            <i class="fa-solid fa-umbrella"></i>
+                        </div>
+                        <div class="about__article--info">
+                            <h3 class="about__article--middleheading">Reliable tour</h3>
+                            <p class="about__article--paragraph paragraph">
+                                Lorem Ipsum available, but the majority have suffered alteration in some.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__article--item">
+                        <a href="#" class="about__article--cta btn btn__blue">booking now</a>
+                    </div>
+                </div>
+            </article>
+            <figure class="about__picture">
+                <img src="images/about-banner.png" alt="About Us" class="about__img img-responsive">
+            </figure>
+        </div>
+    </section>
+    <section class="blog" id="blog">
+        <div class="blog__main">
+            <div class="blog__header">
+                <p class="blog__header--title title">from the blog post</p>
+                <h2 class="blog__header--secondheading secondheading">latest news & articles </h2>
+            </div>
+            <div class="blog__body">
+                <div class="blog__item">
+                    <figure class="blog__item--picture">
+                        <img src="images/popular-1.jpg" alt="Popular blog #1" class="blog__item--img img-responsive">
+                        <div class="blog__item--time">
+                            <i class="fa-regular fa-clock"></i>
+                            <p class="blog__item--days">04 dec</p>
+                        </div>
+                    </figure>
+                    <div class="blog__item--body">
+                        <div class="blog__item--author">
+                            <div class="blog__item--author-info">
+                                <figure class="blog__item--author-picture">
+                                    <img src="images/author-avatar.png" alt="John Bristow photo" class="blog__item--author-img">
+                                </figure>
+
+                                <div class="blog__item--author-user">
+                                    <h4 class="blog__item--author-name">Jony bristow</h4>
+                                    <p class="blog__item--author-job">admin</p>
+                                </div>
+                            </div>
+                            <p class="blog__item--author-postrelease">10:30 am</p>
+                        </div>
+                        <a href="#" class="blog__item--heading">
+                            <h3 class="blog__item--middleheading">
+                                A good traveler has no fixed plans and is not intent on arriving.
+                            </h3>
+                        </a>
+                        <a href="#" class="blog__item--cta">read more <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <figure class="blog__item--picture">
+                        <img src="images/blog-2.jpg" alt="Popular blog #2" class="blog__item--img img-responsive">
+                        <div class="blog__item--time">
+                            <i class="fa-regular fa-clock"></i>
+                            <p class="blog__item--days">04 dec</p>
+                        </div>
+                    </figure>
+                <div class="blog__item--body">
+                    <div class="blog__item--author">
+                        <div class="blog__item--author-info">
+                            <figure class="blog__item--author-picture">
+                                <img src="images/author-avatar.png" alt="John Bristow photo" class="blog__item--author-img">
+                            </figure>
+                
+                            <div class="blog__item--author-user">
+                                <h4 class="blog__item--author-name">Jony bristow</h4>
+                                <p class="blog__item--author-job">admin</p>
+                            </div>
+                        </div>
+                        <p class="blog__item--author-postrelease">10:30 am</p>
+                    </div>
+                    <a href="#" class="blog__item--heading">
+                        <h3 class="blog__item--middleheading">
+                            A good traveler has no fixed plans and is not intent on arriving.
+                        </h3>
+                    </a>
+                    <a href="#" class="blog__item--cta">read more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                </div>
+                <div class="blog__item">
+                    <figure class="blog__item--picture">
+                        <img src="images/blog-3.jpg" alt="Popular blog #3" class="blog__item--img img-responsive">
+                        <div class="blog__item--time">
+                            <i class="fa-regular fa-clock"></i>
+                            <p class="blog__item--days">04 dec</p>
+                        </div>
+                    </figure>
+                <div class="blog__item--body">
+                    <div class="blog__item--author">
+                        <div class="blog__item--author-info">
+                            <figure class="blog__item--author-picture">
+                                <img src="images/author-avatar.png" alt="John Bristow photo" class="blog__item--author-img">
+                            </figure>
+                
+                            <div class="blog__item--author-user">
+                                <h4 class="blog__item--author-name">Jony bristow</h4>
+                                <p class="blog__item--author-job">admin</p>
+                            </div>
+                        </div>
+                        <p class="blog__item--author-postrelease">10:30 am</p>
+                    </div>
+                    <a href="#" class="blog__item--heading">
+                        <h3 class="blog__item--middleheading">
+                            A good traveler has no fixed plans and is not intent on arriving.
+                        </h3>
+                    </a>
+                    <a href="#" class="blog__item--cta">read more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer footer__bg" id="footer">
+        <div class="footer__main">
+            <div class="footer__top">
+                <div class="footer__top--item">
+                    <h3 class="footer__top--middleheading">Top destination</h3>
+                    <ul class="footer__top--menu">
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">indonesia, jakarta</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">maldives, male</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">australia, canberra</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">tthailand, bangkok</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">morocco, rabat</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top--item">
+                    <h3 class="footer__top--middleheading">Categories</h3>
+                    <ul class="footer__top--menu">
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">travel</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">lifestyle</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">fashion</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">education</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">food & drink</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top--item">
+                    <h3 class="footer__top--middleheading">Quick links</h3>
+                    <ul class="footer__top--menu">
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">about</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">contact</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">tours</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">booking</a></li>
+                        <li class="footer__top--list"><a href="#" class="footer__top--link link">terms  & conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top--item">
+                    <h3 class="footer__top--middleheading">Get a newsletter</h3>
+                    <p class="footer__top--paragraph paragraph">
+                        For the latest deals and tips, travel no further than your inbox
+                    </p>
+                    <form action="" class="footer__top--form">
+                        <div class="footer__top--box">
+                            <input type="email" class="footer__top--input" placeholder="Email address">
+                        </div>
+                        <div class="footer__top--box">
+                            <button class="footer__top--btn btn btn__blue">subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom--left">
+                    <a href="#" class="footer__bottom--left-cta">
+                        <h2 class="footer__bottom--left-secondheading">tourest</h2>
+                    </a>
+                </div>
+                <div class="footer__bottom--middle">
+                    <p class="footer__bottom--middle-paragraph paragraph">
+                        &copy; 2022
+                        <a href="https://www.youtube.com/c/codewithsadee" class="footer__bottom--middle-cta">
+                            codewithsadee</a>
+                            . all rights reserved
+                    </p>
+                </div>
+                <div class="footer__bottom--right">
+                    <div class="footer__bottom--right-socialnetwork">
+                        <a href="#" class="footer__bottom--right-sc">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="footer__bottom--right-sc">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="footer__bottom--right-sc">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__bottom--right-sc">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="footer__bottom--right-sc">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>
