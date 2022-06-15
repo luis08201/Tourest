@@ -136,6 +136,7 @@ body {
   bottom: -150px;
   right: 15px;
   transition: 0.5s linear;
+  z-index: 999;
 }
 .floatingBtn.show {
   bottom: 15px;
